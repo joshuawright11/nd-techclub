@@ -2,4 +2,7 @@
 Notes for NDV tutoring
 
 
-[01](00-iOSIntro.md)
+[00](00-iOSIntro.md)
+[01](01-Basics.md)
+[02](02-Objects.md)
+[03](03-ControlStructures.md)
