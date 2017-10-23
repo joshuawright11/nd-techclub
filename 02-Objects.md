@@ -4,7 +4,7 @@ Functions
 ====
 Each function has
 - parameters (what variables the function takes)
-- return type (what the fucntion returns, if anything)
+- return type (what the function returns, if anything)
 ``` swift
 
 // No return type
