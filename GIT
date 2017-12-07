@@ -1,0 +1,6 @@
+Git: Revision Control System
+- repositories
+- `git clone 'url'` downloads a repo
+- git clone
+- git add
+- git commit
