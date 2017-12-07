@@ -13,7 +13,8 @@ Networking
 
 cl + git
 - rm, cd, ls, sudo, git
-- git push, pull, add, commit, merge
+- git push, pull, add, commit, merge, clone 
+- git reset --hard
 
 more oop
 - interfaces
