@@ -4,3 +4,9 @@ Git: Revision Control System
 - git clone
 - git add
 - git commit
+- git pull
+- git push
+
+info
+- git status
+- git log
