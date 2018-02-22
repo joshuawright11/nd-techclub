@@ -1,4 +1,29 @@
-*October 20th, 2017*
+*February 15th, 2018*
+
+Functions
+====
+A function is a block of reusable code than a programmer can use to easily define things they want to do multiple times.
+
+Each function has
+- parameters (what variables the function takes)
+- return type (what the function returns, if anything)
+``` swift
+
+// No return type or parameters
+func printHello() {
+    print("Hello")
+}
+
+// No return type, one parameter
+func printNum(num: Int) {
+   print(num)
+}
+
+// Returns an Int, 2 Int parameters
+func addNumbers(num1: Int, num2: Int) -> Int {
+  return num1 + num2
+}
+```
 
 Control Structures
 ====
@@ -18,7 +43,7 @@ An if statment is simple. It takes a Boolean (`Bool` in Swift) and performs a bl
 let sampleValue = true
 
 if sampleValue {
-  print("Hello, Carla!") // This will always run since sampleValue is true
+  print("Hello, Tech Club!") // This will always run since sampleValue is true
 }
 ```
 
@@ -134,7 +159,7 @@ for i in 0...100 { // this is the syntax for a `Range`, both 0 and 100 will be i
 }
 ```
 
-BONUS Control Structure: `switch`
+BONUS Control Structure: `switch` (didn't go over this in lesson)
 ====
 The `switch` is very similar to an if statement. A switch statement takes a variable, and then gives a bunch of `case` 
 statements that will run if that `case`'s value equals the original variable. In swift, all switch statements must have a 

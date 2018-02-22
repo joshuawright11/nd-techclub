@@ -1,4 +1,4 @@
-*October 2th, 2017*
+*February 8th, 2018*
 
 Programming
 =====
@@ -70,38 +70,4 @@ stringVariable = 12 // will throw an error because stringVariable has type `Stri
 doubleVariable = 10 // will NOT throw an error because while 10 is an `Int` the computer is able to 'cast' it to a Double
 
 print(doubleVariable) // will print 10.0 since the `Int` 10 was cast to a Double
-
-/* Defining an Object */
-
-// Blueprint for a TodoItem object that we might use for our todo list
-class TodoItem: NSObject { // Most Swift objects need to have : NSObject after their definition. Will explain someday later
-    
-    // Define variables of the Object here. Each todo item has a name and an isCompleted (that keeps track of if it is 
-    // completed)
-    //
-    // A variable inside an Object is also called a 'property' of that object (here `name` is a property of `TodoItem`)
-    var name: String
-    var isCompleted: Bool
-    
-    // This is an 'initializer' and is how you create an object. Remember, a `class` is a blueprint for an object. To create
-    // an object to use you need to call the initializer. This creation process is called 'instantiation' and the created 
-    // object is an 'instance' of it's type.
-    //
-    // The format for calling an initializer (and thus creating an object) is ObjectTypeName(). In this case it would be
-    // TodoItem(). This would return a TodoItem with `name` and `isCompleted` properties for you to use.
-    init() {
-        name = "A default name"
-        isCompleted = false
-    }
-}
-
-/* Creating an Object */
-let myTodoItem = TodoItem() // Initializes a TodoItem using the function `init` from above
-print(myTodoItem.name) // will print "A default name" since that's what we set it to in the initializer
-
-myTodoItem.name = "New name"
-
-print(myTodoItem.name) // will print "New name". Properties of Objects can be modified just like any variable. Objects are 
-                       // essentially a variable that contains multiple other variables, as defined in the class you create.
-
 ```
