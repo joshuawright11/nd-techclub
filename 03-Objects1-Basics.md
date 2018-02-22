@@ -2,7 +2,7 @@
 
 Objects
 ====
-```
+```swift
 /* Defining an Object */
 
 // Blueprint for a TodoItem object that we might use for our todo list
